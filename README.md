@@ -13,6 +13,7 @@ I'm making these to serve as a base for my Dark Chronicle/Dark Cloud 2 randomize
 - [Mods currently available](#list)
     - [Demo item names](#demon)
     - [Macho sword re-implementation](#macho)
+    - [Absolute macho](#toomacho)
 
 
 <a name="installation" />
@@ -86,3 +87,11 @@ Re-implements the unused Macho sword, and puts it back into the sword build-up p
 #### Known issues
 
 - Macho Sword has no description.
+
+<a name="toomacho" />
+
+### Absolute Macho
+
+This mod applies the exact same effects as [Macho sword re-implementation](#macho) but also replaces all items' name, icon and model to the macho sword (except some special items like clothing and ridepod parts)
+
+> This mod is evil, I don't recommand trying it
