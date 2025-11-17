@@ -18,34 +18,33 @@ I'm making these to serve as a base for my Dark Chronicle/Dark Cloud 2 randomize
 
 <a name="installation" />
 
-## Installation
+## Mod installation
 
 <a name="release" />
 
 ### Using release
 
-1. Download the .bps file corresponding to the mod you want in the [releases section](https://github.com/Enignmeman/-DC2-Small-mods-tweaks/releases).
-2. Go to https://www.marcrobledo.com/RomPatcher.js/
-3. Apply the patch to a legally-acquired Dark Chronicle or Dark Cloud 2 iso of the same region as the patch.
+1. Download the .xdelta file corresponding to the mod you want in the [releases section](https://github.com/Enignmeman/-DC2-Small-mods-tweaks/releases).
+2. Go get DeltaPatcher [here](https://github.com/marco-calautti/DeltaPatcher/releases/) ([Version 3.1.6 was used to make the patches](https://github.com/marco-calautti/DeltaPatcher/releases/tag/v3.1.6))
+3. Apply the patch to a legally-acquired Dark Chronicle or Dark Cloud 2 iso of the same region and version as the patch.
 4. Play using your preferred way of playing PS2 games!
 
 <a name="cfg" />
 
 ### Using .cfg files
 
-- With hex editor
-1. Open your legally-acquired Dark Chronicle or Dark Cloud 2 iso with your favorite hex editor.
-2. Find where there is data that seems similar to the data in the files you want from this repository (exact location varies demending on game version or game region)
-3. Replace the data (there is always some zeros at the end, be careful to count these, too) (the size of your iso should be the same before and after applying the patch)
-4. Save to a new iso file (or save over your iso file)
-5. Play using your preferred way of playing PS2 games!
+> You will need a DATA.DAT unpacker and repacker tool compatible with your copy of DC2, a hex editor and a way to extract the contents of an iso file.
 
-- With a DATA.DAT file extractor and repacker
-1. Extract the game files.
-2. Navigate to `[folder where DATA.DAT was extracted]/menu/cfg7/`
-3. Replace the files there with the files you want from this repository.
-4. Repack the game files.
-5. Play using your preferred way of playing PS2 games!
+1. Extract the game files from the a legally-acquired Dark Chronicle or Dark Cloud 2 iso.
+2. Unpack DATA.DAT.
+  - You want to keep a copy of the original DATA.DAT available for later.
+3. Navigate to `[folder where DATA.DAT was unpacked]/menu/cfg7/`.
+4. Replace the files there with the files you want from this repository.
+5. Repack your modified DATA.DAT.
+6. Make a copy of the iso file of step 1.
+7. Using your hex editor, locate the beginning of the original DATA.DAT in the copy of the iso.
+8. Replace the DATA.DAT data in the iso with the DATA.DAT data from your modified DATA.DAT.
+9. Use the modified iso to play, using your preferred way of playing PS2 games!
 
 <a name="list" />
 
@@ -54,6 +53,7 @@ I'm making these to serve as a base for my Dark Chronicle/Dark Cloud 2 randomize
 <a name="demon" />
 
 ### Demo item names
+###### Status: Untested
 
 Replaces the name of many things with the names they have in the Dark Cloud 2 Demo.
 > Only english is supported for this mod.
@@ -61,6 +61,7 @@ Replaces the name of many things with the names they have in the Dark Cloud 2 De
 <a name="macho" />
 
 ### Macho sword re-implementation
+###### Status: Working
 
 Re-implements the unused Macho sword, and puts it back into the sword build-up progression.
 
@@ -91,6 +92,7 @@ Re-implements the unused Macho sword, and puts it back into the sword build-up p
 <a name="toomacho" />
 
 ### Absolute Macho
+###### Status: Untested/Not working
 
 This mod applies the exact same effects as [Macho sword re-implementation](#macho) but also replaces all items' name, icon and model to the macho sword (except some special items like clothing and ridepod parts)
 
