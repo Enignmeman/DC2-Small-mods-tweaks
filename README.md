@@ -25,7 +25,7 @@ I'm making these to serve as a base for my Dark Chronicle/Dark Cloud 2 randomize
 ### Using release
 
 1. Download the .xdelta file corresponding to the mod you want in the [releases section](https://github.com/Enignmeman/-DC2-Small-mods-tweaks/releases).
-2. Go get DeltaPatcher [here](https://github.com/marco-calautti/DeltaPatcher/releases/) ([Version 3.1.6 was used to make the patches](https://github.com/marco-calautti/DeltaPatcher/releases/tag/v3.1.6))
+2. Go get DeltaPatcher [here](https://github.com/marco-calautti/DeltaPatcher/releases/).
 3. Apply the patch to a legally-acquired Dark Chronicle or Dark Cloud 2 iso of the same region and version as the patch.
 4. Play using your preferred way of playing PS2 games!
 
@@ -33,13 +33,13 @@ I'm making these to serve as a base for my Dark Chronicle/Dark Cloud 2 randomize
 
 ### Using .cfg files
 
-> You will need a DATA.DAT unpacker and repacker tool compatible with your copy of DC2, a hex editor and a way to extract the contents of an iso file.
+> You will need a DATA.DAT unpacker and repacker tool compatible with your copy of DC2, an hex editor and a way to extract the contents of an iso file.
 
 1. Extract the game files from the a legally-acquired Dark Chronicle or Dark Cloud 2 iso.
 2. Unpack DATA.DAT.
   - You want to keep a copy of the original DATA.DAT available for later.
-3. Navigate to `[folder where DATA.DAT was unpacked]/menu/cfg7/`.
-4. Replace the files there with the files you want from this repository.
+3. Download the mod folders you're interested with.
+4. Paste the content of this/these folders in the folder containing the files extracted from DATA.DAT.
 5. Repack your modified DATA.DAT.
 6. Make a copy of the iso file of step 1.
 7. Using your hex editor, locate the beginning of the original DATA.DAT in the copy of the iso.
@@ -56,12 +56,12 @@ I'm making these to serve as a base for my Dark Chronicle/Dark Cloud 2 randomize
 ###### Status: Untested
 
 Replaces the name of many things with the names they have in the Dark Cloud 2 Demo.
-> Only english is supported for this mod.
+> Only english is affected by this mod.
 
 <a name="macho" />
 
 ### Macho sword re-implementation
-###### Status: Working
+###### Status: Tested, works
 
 Re-implements the unused Macho sword, and puts it back into the sword build-up progression.
 
@@ -92,7 +92,7 @@ Re-implements the unused Macho sword, and puts it back into the sword build-up p
 <a name="toomacho" />
 
 ### Absolute Macho
-###### Status: Untested/Not working
+###### Status: Untested, might not work
 
 This mod applies the exact same effects as [Macho sword re-implementation](#macho) but also replaces all items' name, icon and model to the macho sword (except some special items like clothing and ridepod parts)
 
