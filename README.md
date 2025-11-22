@@ -60,7 +60,7 @@ Replaces the name of many things with the names they have in the Dark Cloud 2 De
 
 <a name="macho" />
 
-### Macho sword re-implementation
+### [Macho sword re-implementation](https://github.com/Enignmeman/DC2-Small-mods-tweaks/releases/tag/mod_1)
 ###### Status: Tested, works
 
 Re-implements the unused Macho sword, and puts it back into the sword build-up progression.
@@ -95,5 +95,6 @@ Re-implements the unused Macho sword, and puts it back into the sword build-up p
 ###### Status: Untested, might not work
 
 This mod applies the exact same effects as [Macho sword re-implementation](#macho) but also replaces all items' name, icon and model to the macho sword (except some special items like clothing and ridepod parts)
+
 
 > This mod is evil, I don't recommand trying it
